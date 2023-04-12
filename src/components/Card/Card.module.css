@@ -1,0 +1,55 @@
+.container {
+	height: 262px;
+	width: 262px;
+	border: 1px solid rgba(241, 241, 236, 0.5);
+	border-radius: 8px;
+	transition: transform 0.15s ease-in-out;
+	cursor: pointer;
+}
+.container:hover {
+	border: 1px solid rgba(241, 241, 236, 1);
+	transform: scale(1.05);
+}
+.cardImage {
+	height: 262px;
+	width: 262px;
+	z-index: -1;
+}
+
+.id {
+	background-color: rgba(21, 21, 21, 0.7);
+
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18.75px;
+
+	border-bottom: 1px solid rgba(241, 241, 236, 0.5);
+	border-right: 1px solid rgba(241, 241, 236, 0.5);
+	border-radius: 8px 0 4px 0;
+
+	width: 39px;
+	height: 29px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tokenName {
+	background-color: rgba(21, 21, 21, 0.7);
+	font-size: 12px;
+	font-weight: 700;
+	height: 44px;
+	width: 230px;
+	border: 1px solid rgba(241, 241, 236, 0.5);
+	border-radius: 6px;
+	position: relative;
+	top: 172px;
+	left: 16px;
+
+	display: flex;
+	align-items: center;
+}
+.tokenName p {
+	margin-left: 16px;
+}

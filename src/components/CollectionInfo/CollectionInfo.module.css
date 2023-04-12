@@ -1,0 +1,31 @@
+.container {
+	border-bottom: 1px solid #f1f1ec40;
+	padding: 24px 0;
+}
+.collectionName {
+	font-size: 32px;
+	font-weight: 700px;
+	line-height: 35.84px;
+	margin-bottom: 8px;
+}
+.iconAndLinkContainer {
+	display: flex;
+}
+.collectionAddress .etherscanAddress {
+	margin-right: 6px;
+	font-size: 14px;
+}
+
+.etherscanLinkContainer {
+	margin-left: 24px;
+}
+
+@media (max-width: 767px) {
+	/* CSS styles for mobile devices */
+	.iconAndLinkContainer {
+		flex-direction: column;
+	}
+	.etherscanLinkContainer {
+		margin-left: 0;
+	}
+}
